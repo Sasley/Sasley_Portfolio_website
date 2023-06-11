@@ -8,22 +8,25 @@
 </head>
 
 <body>
-    <header>
-    <img class="selfie" src="assets/images/20191230_222412.png" width="200px"  alt="Picture of S. Spencer">
-    <h1>Shirley's 1st Portfolio Website</h1>
+    <header class="container">
+        <div class="image">
+            <img src="assets/images/20191230_222412.png" width="200px"  alt="Picture of S. Spencer">
+        </div>
+    <h1 class="text">Shirley's 1st Portfolio Website</h1>
     <hr />
     </header>
-    <!-- float header next to photo with word wrap -->
+    <!-- float header next to photo with word wrap? -->
     <p>Table of contents</p>
     <!-- Have table of contents in a horizontal nav bar -->
-    <ul type="inline block">
+    <nav>
+    <ul type="container">
         <li>About Me</li>
-        <li>Projects</li>
+        <li display="inline block">Projects</li>
             <ul>
-                <li>Accesibility usage </li>
-                <li>Semantics with self starter code</li>
-                <li>Solving a current issue</li>
-                <li>Freelance work</li>
+                <li><a href="/">Accesibility usage</a></li>
+                <li><a href="/">Semantics with starter code</a></li>
+                <li><a href="/">Solving a current issue</a></li>
+                <li><a href="/">Freelance work</a></li>
             </ul>
         <li>Contact Me</li>
     <ul>
@@ -32,6 +35,7 @@
         <li> <a href="mail to:sspencer159@gmail.com">email me</a>
         </li> 
     </ul>
+    </nav>
     <h2>Purpose</h2>
     <p>"Quote about purpose"</p>
 </body>
