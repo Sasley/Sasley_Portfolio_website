@@ -17,11 +17,10 @@
 </section>
 
 <main>
-    <nav type="grid">
-        <ul>
+    <nav>
+        <ul type="grid">
         <li>About Me</li>
-            <p>My name is Shirley Spencer. As a full stack web developer, I strive to help others and include differently abled persons to enjoy the web. I have an apitite to help others in many ways. When I am not working I enjoy relaxing on the beach and enjoying nature. My passion is helping others and spending time with my family.</p>
-        <li>Projects</li>
+        <li display="inline block">Projects</li>
             <ul>
                 <button>Accesibility usage</button>
                 <button>Semantics with starter code</button>
@@ -29,10 +28,12 @@
                 <button>Freelance work</button>
             </ul>
         <li>Contact Me</li>
-            <ul>
-                <li> <a href="http://LinkedIn.com">LinkedIn</a></li>
-                <li> <a href="mail to:sspencer159@gmail.com">email me</a></li> 
-        </ul>
+    <ul>
+        <li> <a href="http://LinkedIn.com">LinkedIn</a>
+        </li>
+        <li> <a href="mail to:sspencer159@gmail.com">email me</a>
+        </li> 
+    </ul>
     </nav>
 </main>
 
