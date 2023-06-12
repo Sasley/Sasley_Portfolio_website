@@ -17,13 +17,13 @@
 p::after {
     display: content;
     content:"Friends";
-    color: red
+    color: red;
     text-decoration: underline;
     animation:alternate;
 }
 
 p::after {
-    content:" to my portfolio"
+    content:" to my portfolio";
     color: red;
     text-decoration: underline;
     animation: alternate;
@@ -34,7 +34,8 @@ h1::after {
 }
 
 img {
-    display: block;left;inline-size: ;
+    display: block;
+    /* justify: left; */
     width: 700px;
     height: 450px;
     padding: 20px 10px;
@@ -45,6 +46,10 @@ img {
 main {
     display: flex;
     flex: grid;
-    list style: none;
   }
- 
+
+
+.erasedots {
+    list-style: none ;
+    
+}
