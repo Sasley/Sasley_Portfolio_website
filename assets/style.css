@@ -1,32 +1,50 @@
 *   {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large; 
-    background-color: rgb(212, 242, 222);
-    color: ;
+    /* background-color: rgb(212, 242, 222);
+    color: ; */
     text-align: center;
 }
 
-h1::after {
-    content: 'Friends' and 'to my portfolio';
-    size: 300px;
-    color: blue;
-    display:flex;
-    flex: rotate;
+* header {
+    line-height: 200px;
+    font-size: 3em;
+    font-weight: bolder;
+    color: Black;
+    position: relative;
+}
+
+p::after {
+    display: content;
+    content:"Friends";
+    color: red
+    text-decoration: underline;
+    animation:alternate;
+}
+
+p::after {
+    content:" to my portfolio"
+    color: red;
     text-decoration: underline;
     animation: alternate;
 }
-* h1 {
-    size: 200%;
-    color: blue;
+
+h1::after {
+    size: 300px;
 }
 
-* h1::after {
-
-. section{
-   width: 700 px;
-   height: 450px;
+img {
+    display: block;left;inline-size: ;
+    width: 700px;
+    height: 450px;
+    padding: 20px 10px;
+    border: 2px solid #bfbfbf;
+    background-color: #fff;
 }
 
-. img {
-    size: 100cm;
-}
+main {
+    display: flex;
+    flex: grid;
+    list style: none;
+  }
+ 
