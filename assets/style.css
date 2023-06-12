@@ -1,22 +1,32 @@
 *   {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    background-color: darkgray; 
-    color: rgb(204, 20, 23);
+    font-size: large; 
+    background-color: rgb(212, 242, 222);
+    color: ;
+    text-align: center;
 }
 
-. header {
-    align: center;
-    margin: 0px;
-    padding: 1px;
-}
-
-. span {
+h1::after {
+    content: 'Friends' and 'to my portfolio';
+    size: 300px;
+    color: blue;
+    display:flex;
+    flex: rotate;
     text-decoration: underline;
-    animation:alternate;
+    animation: alternate;
+}
+* h1 {
+    size: 200%;
+    color: blue;
 }
 
-. h1 {
-    size: 3em;
-    color: brown;
+* h1::after {
+
+. section{
+   width: 700 px;
+   height: 450px;
+}
+
+. img {
+    size: 100cm;
 }
