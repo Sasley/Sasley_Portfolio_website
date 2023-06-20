@@ -50,3 +50,18 @@ main {
     list-style: none ;
     
 }
+.author{
+    display: flex;
+
+}
+.yogurt{
+    background-image: url("../images/yogurt.jpeg");
+    height: 100px;
+    width: 100px;
+}
+.lunch{
+
+
+}
+.airport{}
+.watrfall{}
